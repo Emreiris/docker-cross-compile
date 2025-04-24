@@ -25,20 +25,16 @@ This repository includes all the necessary scripts, Dockerfiles, and example cod
     cd Cpp_CrossCompile
     git submodule update --init --recursive
     ```
-Alternatively you can run;
-    ```bash
-    git clone --recursive https://github.com/Emreiris/docker-cross-compile.git 
-    ``` 
 so that submodules shall be downloaded within the repository.
 
-2. Use the provided `compile.ps1` script to build the project:
+1. Use the provided `compile.ps1` script to build the project:
     - On Windows:
         ```powershell
         .\compile.ps1
         ```
     - On other platforms, you may need to adapt the script or use equivalent Docker commands.
 
-3. The compiled binaries will be available in the `<target>/build` directory.
+2. The compiled binaries will be available in the `<target>/build` directory.
 
 ## Project Structure
 
