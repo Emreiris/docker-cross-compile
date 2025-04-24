@@ -1,0 +1,6 @@
+[submodule "cpp-semver"]
+	path = cpp-semver
+	url = https://github.com/z4kn4fein/cpp-semver.git
+[submodule "googletest"]
+	path = googletest
+	url = https://github.com/google/googletest.git
