@@ -14,7 +14,7 @@ This repository includes all the necessary scripts, Dockerfiles, and example cod
 
 ## Prerequisites
 
-- Docker installed on your system.
+- Docker is installed on your system and ready to use.
 - Basic knowledge of Docker and C++.
 
 ## Getting Started
@@ -22,7 +22,7 @@ This repository includes all the necessary scripts, Dockerfiles, and example cod
 1. Clone the repository and initialize submodules:
     ```bash
     git clone https://github.com/Emreiris/docker-cross-compile.git 
-    cd Cpp_CrossCompile
+    cd docker-cross-compile
     git submodule update --init --recursive
     ```
 so that submodules shall be downloaded within the repository.
@@ -40,12 +40,9 @@ so that submodules shall be downloaded within the repository.
 
 - `cross_compile/Dockerfile`: Defines the Docker image for cross-compilation.
 - `cross_compile/entrypoint.sh`: Handles the C++ application cross-compilation process
-- `compile.ps1`: Powershell script to handle docker building and run operations.
+- `compile.ps1`: Powershell script to handle Docker building and run operations.
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-Special thanks to the open-source community for providing tools and resources for cross-compilation.
